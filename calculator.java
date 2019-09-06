@@ -15,7 +15,9 @@ public class SumAverage {
 			arr[i] = temp;
 			sum += temp;
 		}
+		float avg = (float)sum/size;
 		System.out.println("Sum = " + sum);
+		System.out.println("Average = " + avg);
 	}
 
 }
